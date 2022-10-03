@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {Route, Routes} from "react-router-dom";
 import Login from "./pages/login/Login";
-import Upload from "./pages/upload/Upload";
+import Upload from "./pages/upload/UploadZone";
 
 function App() {
     const [newUserInfo, setNewUserInfo] = useState<Object>({
